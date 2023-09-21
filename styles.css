@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+body {
+    background-color: #ecebeb;
+}
+
+.buttonstart {
+    background-color:#40ad36;
+    border: none;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 21px;
+    box-shadow: 1px 1px 1px 1px #40ad36;
+    cursor: pointer; 
+}
+.buttonstart:active{
+   opacity: 0.7;
+}
+
+.buttonstop {
+    background-color: #f50000;
+    border: none;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    color: #ffffff;;
+    font-size: 21px;
+    box-shadow: 1px 1px 1px 1px #f50000;
+    cursor: pointer; 
+}
+    
+.buttonreset {
+    background-color: #fc9a07;
+    border: none;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    color: #ffffff;;
+    font-size: 21px;
+    box-shadow: 1px 1px 1px 1px #f39a07;
+    cursor: pointer;
+   
+}
+
+.clock {
+    display: flex;
+    width: 450px;
+    margin-left: 0px;
+    position: absolute;
+    margin-bottom: 240px;
+
+}
+
+.painels {
+    width: 450px;
+    height: 440px;
+    background-color: #4aaad6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 51px;
+    margin-left: 739px;
+    margin-top: 180px;
+    box-shadow: 1px -1px 20px 5px #888888;
+}
+
+.button {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 280px;
+    font-size: 20px;
+   
+}
+.numbers {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 72%;
+    background-color: #ebebeb;
+    margin-top: 112px;
+    gap: 6px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 1px #cacaca;
+    height: 56px;
+}
+
+p {
+    color: #575656;
+    display: flex;
+    align-items: center;
+    font-weight: 900; 
+}
+
+h1 {
+    color: #575656;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+h2 {
+    color: #f0efef;
+    position: absolute;
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.filipe {
+    color:#f0efef;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 56px;
+    font-weight: 400;
+}
+
+
+
